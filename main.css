@@ -2,12 +2,20 @@
     box-sizing: border-box;
 }
 
-p{color:burlywood; font-size: 22px}
+p{color:green ; font-size: 22px}
 
 h1{
     color: crimson; font-size: 36px;
 }
 
 button {
-color: blueviolet; font-size: 24px;
+background-color: black; color: chartreuse; font-size: 24px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+#hello {
+    color:indianred;
 }
