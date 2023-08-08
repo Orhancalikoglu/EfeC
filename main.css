@@ -17,5 +17,5 @@ body {
 }
 
 #hello {
-    color:indianred;
+    color:indianred; font-weight: bold;
 }
