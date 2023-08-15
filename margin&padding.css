@@ -12,12 +12,15 @@ body{
     background-color: cadetblue;
     width: 200px;
     height: 200px;
+    padding: 30px;
 }
 
 #div2{
     background-color: cornflowerblue;
     width: 300px;
     height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 #div3{
@@ -25,4 +28,6 @@ body{
     width: 400px;
     height: 200px;
     border: 5px solid black;
+    margin: 20px;
+    padding: 20px 0 0 40px;
 }
