@@ -1,0 +1,28 @@
+body{
+    background-color: chartreuse;
+}
+
+.text{
+   
+    
+    font-weight: 800;
+}
+
+#div1{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}
+
+#div2{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+}
+
+#div3{
+    background-color: crimson;
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+}
