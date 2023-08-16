@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
+    <style>
+        .item {
+            width: 75px;
+            height: 75px;
+            color: chocolate;
+            font-weight: bold;
+            font-size: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #div1 {
+            background-color: aqua;
+        }
+
+        #div2 {
+            background-color: chartreuse;
+        }
+
+        #div3 {
+            background-color: blueviolet;
+        }
+
+        #div4 {
+            background-color: aquamarine;
+        }
+
+        #div5 {
+            background-color: cornflowerblue;
+        }
+
+        .container {
+            width: 600px;
+            height: 600px;
+            background-color: rgb(7, 255, 172);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div id="div1" class="item"> 1</div>
+        <div id="div2" class="item"> 2</div>
+        <div id="div3" class="item"> 3</div>
+        <div id="div4" class="item"> 4</div>
+        <div id="div5" class="item"> 5</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
