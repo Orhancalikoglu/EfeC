@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM Naming For CSS</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 500px;
+            height: 500px;
+            background-color: antiquewhite;
+        }
+
+        .profilecard__img {
+            width: 200px;
+        }
+
+        .profilecard__heading {
+            font-size: 24px;
+            color: blueviolet;
+            margin: 5px 0 5px 0;
+        }
+
+        .profilecard__title {
+            font-size: 18px;
+            color: cornflowerblue;
+            margin: 5px 0 5px 0;
+        }
+
+        .profilecard {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+.profilecard__link--container{
+    margin: 5px 0 0 0;
+}
+
+        .profilecard__link {
+            color: chartreuse;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: coral;
+            padding: 7.5px;
+            border: 2px solid chocolate;
+            cursor: pointer;
+        }
+        .profilecard__link--linkedin{
+           background-color: deepskyblue;
+           border: 2px solid aquamarine;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <div class="profilecard">
+
+            <img src="./images/8f5e4826-0fdb-4bb8-899f-deae13b2f4ec.jpg" alt="Orhan" class="profilecard__img">
+            <h1 class="profilecard__heading">Orhan Efe Calikoglu</h1>
+            <h2 class="profilecard__title">Web Developer</h2>
+            <div class="profilecard__link--container">
+                <a href="#" class="profilecard__link">About</a>
+                <a href="#" class="profilecard__link
+                profilecard__link--linkedin">Linkedin</a>
+            </div>
+
+
+        </div>
+
+    </div>
 
 
 
@@ -15,6 +85,6 @@
 
 
 
-    
 </body>
+
 </html>
